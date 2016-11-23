@@ -18,5 +18,5 @@ generic `ld-web-layer`.
     - **Custom templates and layouts** can be solved by injecting the name of the layout into the request, and taking them
      Into account when the page is rendered. To pass the data to the rendering I'd propose to preserve a context on the request.
      - **Speaking urls** are also a just a matter of routing, but get hard to handle if they should be injected by the custom website
-     - 
+     - It might be a good idea to define a format for rewriting the urls, so its a matter of configuration instead of "coding"
     
