@@ -1,0 +1,12 @@
+{% extends 'default/layout-page.njk' %}
+{% block content %}
+    <div class="funky-page-wrapper">
+        <h1>Custom Page Layout</h1>
+    </div>
+    {{ super() }}
+    {% block ads %}
+        <div class="funky-page-wrapper">
+            <p>Google Ads</p>
+        </div>
+    {% endblock %}
+{% endblock %}

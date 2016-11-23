@@ -12,5 +12,8 @@
     "express": "^4.14.0",
     "nunjucks": "^3.0.0",
     "request": "^2.79.0"
+  },
+  "devDependencies": {
+    "ngrok": "^2.2.3"
   }
 }
